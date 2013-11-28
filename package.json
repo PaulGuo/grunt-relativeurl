@@ -1,0 +1,46 @@
+{
+  "name": "grunt-relativeurl",
+  "description": "combine build html with ssi.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "liuhuo.gk",
+    "email": "liuhuo.gk@taobao.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.alibaba-inc.com/trip/h5-test.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "iconv-lite": ""
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "readmeFilename": "README.md",
+  "_id": "grunt-relativeurl@0.1.0",
+  "_from": "grunt-relativeurl@",
+  "dist": {
+    "shasum": "f3622894a9794e60c04f65b9084b7c94f63c060c"
+  },
+  "readme": "# grunt-relativeurl"
+}
