@@ -1,6 +1,6 @@
 {
   "name": "grunt-relativeurl",
-  "description": "combine build html with ssi.",
+  "description": "combine scripts and styles, and convert relative url to absolute url..",
   "version": "0.1.0",
   "homepage": "",
   "author": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://gitlab.alibaba-inc.com/trip/h5-test.git"
+    "url": "git@github.com:PaulGuo/grunt-relativeurl.git"
   },
   "licenses": [
     {
