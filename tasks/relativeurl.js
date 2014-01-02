@@ -58,7 +58,8 @@ module.exports = function(grunt) {
                 var scripts = [];
                 var styles = [];
 
-                chunk = chunk.replace(/<script[\s\S]+?src="([^"]+)"><\/script>/igm, function($, $1) {
+                //chunk = chunk.replace(/<script[\s\S]+?src="([^"]+)"><\/script>/igm, function($, $1) {
+                chunk = chunk.replace(/<script[^>]+?src="([^"]+)"><\/script>/igm, function($, $1) {
                     if($.match(/http:\/\//igm)) {
                         return $;
                     }
@@ -72,7 +73,8 @@ module.exports = function(grunt) {
                     return '';
                 });
 
-                chunk = chunk.replace(/<link[\s\S]+?href="([^"]+?)"\s*\/>/igm, function($, $1) {
+                //chunk = chunk.replace(/<link[\s\S]+?href="([^"]+?)"\s*\/>/igm, function($, $1) {
+                chunk = chunk.replace(/<link[^>]+?href="([^"]+?)"[^>]*\/>/igm, function($, $1) {
                     if($.match(/http:\/\//igm)) {
                         return $;
                     }
@@ -96,7 +98,9 @@ module.exports = function(grunt) {
                 chunk = chunk.replace('<%%%STYLES_HOLDER%%%>', '<link rel="stylesheet" href="' + combo_styles + '"/>');
             }
 
-			chunk = tidy(chunk);
+			//Loading "tidy.js" tasks...ERROR
+			//>> TypeError: Object #<Object> has no ethod 'charAt'
+			//chunk = tidy(chunk);
 
 			if(!(chunk instanceof Buffer)){
 				chunk = new Buffer(chunk);
