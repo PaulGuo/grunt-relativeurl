@@ -1,7 +1,7 @@
 {
   "name": "grunt-relativeurl",
   "description": "combine scripts and styles, and convert relative url to absolute url..",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "",
   "author": {
     "name": "liuhuo.gk",
@@ -37,7 +37,7 @@
     "gruntplugin"
   ],
   "readmeFilename": "README.md",
-  "_id": "grunt-relativeurl@0.1.1",
+  "_id": "grunt-relativeurl@0.1.2",
   "_from": "grunt-relativeurl@",
   "dist": {
     "shasum": "f3622894a9794e60c04f65b9084b7c94f63c060c"
