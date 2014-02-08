@@ -88,8 +88,8 @@ module.exports = function(grunt) {
                     return '';
                 });
 
-                console.log(scripts);
-                console.log(styles);
+                //console.log(scripts);
+                //console.log(styles);
 
                 var combo_script = relative + '??' + scripts.join(',');
                 var combo_styles = relative + '??' + styles.join(',');
