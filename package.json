@@ -1,7 +1,7 @@
 {
   "name": "grunt-relativeurl",
   "description": "combine scripts and styles, and convert relative url to absolute url..",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "",
   "author": {
     "name": "liuhuo.gk",
