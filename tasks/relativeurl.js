@@ -59,7 +59,7 @@ module.exports = function(grunt) {
                 var styles = [];
 
                 // fix `../file.ext` to `file.ext`
-                chunk = chunk.replace(/\.\.\//igm, '');
+                // chunk = chunk.replace(/\.\.\//igm, '');
 
                 //chunk = chunk.replace(/<script[\s\S]+?src="([^"]+)"><\/script>/igm, function($, $1) {
                 chunk = chunk.replace(/<script[^>]+?src="([^"]+)"><\/script>/igm, function($, $1) {
